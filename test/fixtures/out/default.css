@@ -1,0 +1,35 @@
+.before {
+  font-size: 10px;
+}
+
+.u-mp0 {
+  margin: 0;
+  padding: 0;
+}
+
+.u-mp10 {
+  margin: 10px;
+  padding: 10px;
+}
+
+.u-mp20 {
+  margin: 20px;
+  padding: 20px;
+}
+.u-fontSize-lineHeight14-5 {
+  font-size: 14.5px;
+  line-height: 14.5px;
+}
+
+@media (min-width: 200px) {
+  .u-m10 {
+    margin: 10px;
+  }
+  .u-m20 {
+    margin: 20px;
+  }
+}
+
+.after {
+  font-size: 10px;
+}

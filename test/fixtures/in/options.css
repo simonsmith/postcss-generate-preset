@@ -1,0 +1,10 @@
+.before {
+  font-size: 10px;
+}
+
+@generate-preset .u-mt margin-top 0 10px;
+@generate-preset .u-p padding 0;
+
+.after {
+  font-size: 10px;
+}
