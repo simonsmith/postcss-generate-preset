@@ -1,6 +1,6 @@
 # postcss-generate-preset [![Build Status][ci-img]][ci]
 
-[PostCSS] plugin that allows generation of similar rules. Useful for quickly generating repetitive utilities.
+[PostCSS] plugin that allows quick generation of rules. Useful for quickly creating repetitive utilities.
 
 [PostCSS]: https://github.com/postcss/postcss
 [ci-img]:  https://travis-ci.org/simonsmith/postcss-generate-preset.svg
