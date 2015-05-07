@@ -8,8 +8,10 @@ var test = function(input, output, opts, done) {
   input = fs.readFileSync(path.join('test/fixtures', input), 'utf-8');
   output = fs.readFileSync(path.join('test/fixtures', output), 'utf-8');
 
-  expect(postcss(plugin(opts)).process(input).css).to.eql(output);
-  done();
+  postcss([ plugin(opts) ]).process(input).then(function(result) {
+    expect(result.css).to.eql(output);
+    done();
+  });
 };
 
 describe('postcss-generate-preset', function() {
