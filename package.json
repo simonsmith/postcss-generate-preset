@@ -10,7 +10,7 @@
     "url":  "https://github.com/simonsmith/postcss-generate-preset.git"
   },
   "dependencies": {
-    "postcss": "^4.1.5"
+    "postcss": "^5.0.12"
   },
   "devDependencies": {
     "gulp-eslint": "0.9.0",
