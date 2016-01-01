@@ -6,7 +6,7 @@ function generatePreset(opts) {
   opts = opts || {};
 
   return function(css) {
-    css.eachAtRule(function (atRule) {
+    css.walkAtRules(function (atRule) {
       if (atRule.name !== 'generate-preset') {
         return;
       }
@@ -58,7 +58,7 @@ function generatePreset(opts) {
         root.insertBefore(atRule, rule);
       });
 
-      atRule.removeSelf();
+      atRule.remove();
     });
   };
 }
