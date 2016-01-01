@@ -20,12 +20,11 @@
   },
   "devDependencies": {
     "chai": "3.4.1",
-    "eslint-config-airbnb": "^2.1.1",
-    "gulp": "3.9.0",
-    "gulp-eslint": "1.1.1",
-    "gulp-mocha": "2.2.0"
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^2.1.1"
   },
   "scripts": {
-    "test": "gulp"
+    "lint": "eslint index.js test/*.js",
+    "test": "npm run lint && mocha --reporter spec"
   }
 }
