@@ -20,10 +20,10 @@ function generatePreset(opts) {
         return;
       }
 
-      var root       = atRule.parent;
-      var selector   = matches[1];
+      var root = atRule.parent;
+      var selector = matches[1];
       var properties = postcss.list.space(matches[2]);
-      var values     = postcss.list.space(matches[3]);
+      var values = postcss.list.space(matches[3]);
 
       values.forEach(function(value) {
         var numeric = parseFloat(value, 10);
@@ -63,6 +63,6 @@ function generatePreset(opts) {
   };
 }
 
-function isFloat(n){
+function isFloat(n) {
   return n === +n && n !== (n | 0);
 }
