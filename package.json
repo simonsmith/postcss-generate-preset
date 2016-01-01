@@ -1,6 +1,6 @@
 {
   "name": "postcss-generate-preset",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "PostCSS plugin that allows quick generation of similar rules",
   "keywords": [
     "postcss",
