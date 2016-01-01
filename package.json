@@ -2,21 +2,28 @@
   "name": "postcss-generate-preset",
   "version": "0.1.0",
   "description": "PostCSS plugin that allows quick generation of similar rules",
-  "keywords": ["postcss", "css", "postcss-plugin", "suitcss", "utility"],
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "suitcss",
+    "utility"
+  ],
   "author": "Simon Smith <me@simonsmith.io>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url":  "https://github.com/simonsmith/postcss-generate-preset.git"
+    "url": "https://github.com/simonsmith/postcss-generate-preset.git"
   },
   "dependencies": {
     "postcss": "^5.0.13"
   },
   "devDependencies": {
-    "gulp-eslint": "1.1.1",
-    "gulp-mocha": "2.2.0",
     "chai": "3.4.1",
-    "gulp": "3.9.0"
+    "eslint-config-airbnb": "^2.1.1",
+    "gulp": "3.9.0",
+    "gulp-eslint": "1.1.1",
+    "gulp-mocha": "2.2.0"
   },
   "scripts": {
     "test": "gulp"
